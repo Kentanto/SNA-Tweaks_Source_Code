@@ -1,0 +1,159 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - solarneutronactivatortweak-template-1.21.10",
+        "order": 0
+      },
+      "projectName": "solarneutronactivatortweak-template-1.21.10",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsolarneutronactivatortweak%%C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - solarneutronactivatortweak-template-1.21.10",
+        "order": 1
+      },
+      "projectName": "solarneutronactivatortweak-template-1.21.10",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsolarneutronactivatortweak%%C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - solarneutronactivatortweak-template-1.21.10",
+        "order": 2
+      },
+      "projectName": "solarneutronactivatortweak-template-1.21.10",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsolarneutronactivatortweak%%C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - solarneutronactivatortweak-template-1.21.10",
+        "order": 3
+      },
+      "projectName": "solarneutronactivatortweak-template-1.21.10",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsolarneutronactivatortweak%%C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-1.21.1 - Client",
+      "presentation": {
+        "group": "Mod Development - neoforge-1.21.1",
+        "order": 0
+      },
+      "projectName": "neoforge-1.21.1",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\neoforge-1.21.1\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\neoforge-1.21.1\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsolarneutronactivatortweak%%C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\neoforge-1.21.1\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\neoforge-1.21.1\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-1.21.1 - Data",
+      "presentation": {
+        "group": "Mod Development - neoforge-1.21.1",
+        "order": 1
+      },
+      "projectName": "neoforge-1.21.1",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\neoforge-1.21.1\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\neoforge-1.21.1\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsolarneutronactivatortweak%%C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\neoforge-1.21.1\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\neoforge-1.21.1\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "neoforge-1.21.1 - Server",
+      "presentation": {
+        "group": "Mod Development - neoforge-1.21.1",
+        "order": 2
+      },
+      "projectName": "neoforge-1.21.1",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\neoforge-1.21.1\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\neoforge-1.21.1\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsolarneutronactivatortweak%%C:\\Users\\holb0\\Downloads\\solarneutronactivatortweak-template-1.21.10\\neoforge-1.21.1\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\neoforge-1.21.1\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

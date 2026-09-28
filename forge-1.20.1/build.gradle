@@ -1,0 +1,69 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.1)'
+    id 'org.spongepowered.mixin' version '0.7.38'
+}
+
+def repoRoot = file('..')
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id + '-forge-1.20.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version_1_20_1
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            mods { solarneutronactivatortweak { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            args '--nogui'
+            mods { solarneutronactivatortweak { source sourceSets.main } }
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version_1_20_1}-${forge_version_1_20_1}"
+    compileOnly files("${repoRoot}/libs/Mekanism-1.20.1-10.4.16.80.jar")
+    compileOnly files("${repoRoot}/libs/mekmm-1.20.1-1.1.2.jar")
+}
+
+sourceSets.main {
+    java.srcDirs "${repoRoot}/common/src/main/java"
+    resources.srcDirs = ["src/main/resources", "${repoRoot}/common/src/main/resources"]
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    filesMatching("META-INF/mods.toml") {
+        expand project.properties
+    }
+}
+
+jar {
+    manifest {
+        attributes([
+            'MixinConfigs': 'solarneutronactivatortweak.mixins.json'
+        ])
+    }
+}

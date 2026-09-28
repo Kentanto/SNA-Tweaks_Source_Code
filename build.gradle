@@ -1,0 +1,7 @@
+// Multi-loader Solar Neutron Activator Tweak
+// Subprojects:
+//   common          — shared code (mixins, config screen)
+//   forge-1.20.1    — Forge 1.20.1 build
+//   neoforge-1.20.1 — NeoForge 1.20.1 build
+//   neoforge-1.21.1 — NeoForge 1.21.1 build
+

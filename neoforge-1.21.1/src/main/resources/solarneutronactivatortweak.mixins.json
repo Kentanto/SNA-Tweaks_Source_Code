@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.kentanto.alwayssna.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SNAMixin",
+    "LargeSNAMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
