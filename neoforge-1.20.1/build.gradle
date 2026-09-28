@@ -41,7 +41,6 @@ dependencies {
     // because the NeoForge artifact lacks the :userdev classifier ForgeGradle requires.
     minecraft "net.minecraftforge:forge:${minecraft_version_1_20_1}-${forge_version_1_20_1}"
     compileOnly files("${repoRoot}/libs/Mekanism-1.20.1-10.4.16.80.jar")
-    compileOnly files("${repoRoot}/libs/mekmm-1.20.1-1.1.2.jar")
 }
 
 sourceSets.main {
